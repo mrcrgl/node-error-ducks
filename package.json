@@ -1,0 +1,37 @@
+{
+  "name": "error-ducks",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marc Riegel",
+    "email": "mail@marclab.de"
+  },
+  "description": "Duck typing errors from third party modules.",
+  "engines": {
+    "node": ">=0.10 <=0.12"
+  },
+  "main": "lib/error-ducks.js",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcrgl/node-error-ducks"
+  },
+  "bugs": {
+    "url": "https://github.com/mrcrgl/node-error-ducks/issues"
+  },
+  "dependencies": {
+    "copy-object": "^1.0"
+  },
+  "devDependencies": {
+    "chai": "2.x",
+    "mocha": "2.x",
+    "grunt": "0.x",
+    "grunt-cli": "0.x",
+    "grunt-contrib-jshint": "0.x",
+    "grunt-mocha-test": "0.x",
+    "jshint-stylish": "1.x"
+  },
+  "license": "MIT"
+}
+
